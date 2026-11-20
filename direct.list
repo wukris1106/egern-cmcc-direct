@@ -1,0 +1,20 @@
+# 移动云盘 / 中国移动直连规则集 (direct.list)
+# 条目不含策略列 —— 策略在引用处指定
+# 覆盖：中国移动云盘（139.com / mcloud.139.com / cmecloud.cn）+ 移动 CDN + 咪咕系
+#       使云盘上传下载、在线播放不走代理，避免跨境抖动
+# 校验：AliDNS DoH (223.5.5.5) 实测可解析
+# 重建：2026-11-21 by Hermes（原 bluee1111/egern-cmcc-direct）
+# 注：原仓库另含 yusen Emby 反代直连条目，域名未留存 —— 需要时把反代域名发我，加一行即可
+DOMAIN-SUFFIX,139.com
+DOMAIN-SUFFIX,mcloud.139.com
+DOMAIN-SUFFIX,chinamobile.com
+DOMAIN-SUFFIX,cmecloud.cn
+DOMAIN-SUFFIX,cmvideo.cn
+DOMAIN-SUFFIX,migu.cn
+DOMAIN-SUFFIX,migucloud.com
+DOMAIN-SUFFIX,miguvideo.com
+DOMAIN-SUFFIX,cmdcxls.com
+DOMAIN-SUFFIX,ecpan.cn
+DOMAIN-SUFFIX,andfx.net
+DOMAIN-SUFFIX,chinamobiledevice.com
+DOMAIN-SUFFIX,chinamobileltd.com
